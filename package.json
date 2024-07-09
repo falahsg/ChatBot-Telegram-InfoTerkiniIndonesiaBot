@@ -1,0 +1,16 @@
+{
+  "name": "infoterkiniindonesiabot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "bot": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "Ananda Ias Falah Surya Gemilang",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "node-telegram-bot-api": "^0.66.0"
+  }
+}
