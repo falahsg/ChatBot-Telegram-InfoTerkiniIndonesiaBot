@@ -10,7 +10,7 @@ const bot = new TelegramBot(token, { polling: true });
 const startMessage = `
 Klik salah satu dibawah ini untuk melihat informasi
 
-/berita 📰 — Menampilkankan berita terbaru
+/berita 📰 — Menampilkan berita terbaru
 /cuaca ☁️ — Menampilkan informasi cuaca
 /gempa 💥 — Menampilkan informasi gempa
 

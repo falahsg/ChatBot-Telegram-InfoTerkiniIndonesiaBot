@@ -27,8 +27,6 @@ const register = (bot) => {
       } = await apiCall.json();
       const BMKG_ENDPOINT_IMG = BMKG_ENDPOINT + Shakemap;
 
-      console.log("gempa access", callback.from.username);
-
       const result = `
 - Waktu: ${Jam} || ${Tanggal}
 - Besaran: ${Magnitude} SR
