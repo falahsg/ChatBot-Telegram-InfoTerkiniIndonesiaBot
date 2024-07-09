@@ -119,7 +119,9 @@ const register = (bot) => {
         await bot.deleteMessage(msg.chat.id, loadingMessage.message_id);
         bot.sendMessage(
           msg.chat.id,
-          "Maaf, terjadi kesalahan saat mengambil data cuaca atau lokasi tidak ditemukan."
+          `Maaf, terjadi kesalahan saat mengambil data cuaca atau lokasi tidak ditemukan. 
+          
+Silahkan ulangi /cuaca dengan lokasi yang anda inginkan.`
         );
         waitingForLocation[msg.chat.id] = false;
       }
